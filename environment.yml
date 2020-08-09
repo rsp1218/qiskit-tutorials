@@ -1,11 +1,8 @@
 name: Qiskitenv
 dependencies:
-- python=3
-- pip
-- matplotlib
+- python>=3.6
+- matplotlib<3.3
 - notebook
 - ipywidgets
 - pip:
   - qiskit
-  - qiskit-aqua
-  - qiskit-chemistry
